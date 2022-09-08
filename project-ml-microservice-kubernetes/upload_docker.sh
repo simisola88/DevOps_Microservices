@@ -3,7 +3,6 @@
 
 # Assumes that an image is built via `run_docker.sh`
 
-
 # Step 1:
 # Create dockerpath
 dockerpath=simisol88/ml-api
