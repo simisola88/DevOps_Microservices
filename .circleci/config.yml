@@ -8,7 +8,7 @@ commands:
       - run:
           name: goto_directory
           command: |
-            cd project-ml-microservice-kubernetes
+            cd ~/project-ml-microservice-kubernetes
             echo "Chaneged to Project Directory"
 
 jobs:
