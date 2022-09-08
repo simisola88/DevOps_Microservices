@@ -3,16 +3,13 @@
 # This tags and uploads an image to Docker Hub
 
 # Step 1:
-# This is your Docker ID/path
-# dockerpath=<>
+# Build image and add a descriptive tag
+docker build --tag=mch-api .
 
-# Step 2
-# Run the Docker Hub container with kubernetes
+# Step 2: 
+# List docker images
+docker image ls
 
-
-# Step 3:
-# List kubernetes pods
-
-# Step 4:
-# Forward the container port to a host
-
+# Step 3: 
+# Run flask app
+docker run -p 8080:80 mch-api

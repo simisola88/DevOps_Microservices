@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=simisol88/ml-api
+dockerpath=simisol88/mch-api
 
 # Step 2:  
 # Authenticate & tag
